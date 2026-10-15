@@ -1,0 +1,64 @@
+PROJECT OVERVIEW
+The student Grade Management System stores/enters the names of students and their grades,
+calculating the average grades of students,determining the lowest grads and the highest
+grades for students across the various subject.This system also shows a brief summary of
+the the students grades/marks in every subject.All of this was done by breaking the code 
+down into functions for better organization and maintainability by creating functions,
+implementing the search and update functions and error handling.
+
+SETUP INSTRUCTIONS
+Before coding the programing I installed pycharm onto my pc.I used pycharm to code
+Section D.I coded my program and run it,after coding all results will be displayed
+on the console wher i entered  the subjects of the students,updating the students,
+viewed and searched for the student names and records.I did all this to ensure 
+that the program was returning the expected outputs.
+
+FEATURES LIST
+-entering the student names
+-entering the student grades
+-entering the student subjects(math,science and english)
+-calculating the average for every single student
+-calculating the overall average  of all students
+-calculating the lowest and highest
+-showing a summary table showing the grades of all student
+-showing an error message when the the user enters a value that is not correct/invalid
+
+CLASS ARCHITECTURE
+1.The user enters the names,grades and subjects
+2.Calculating the average of eachs tudent and the overall average of all students
+3.Calculating the lowest grades
+4.calculating the highest grades
+5.Showing the student summary
+6.Updating students
+7.Searching students
+8.viewing students
+
+
+EXAMPLE INPUT AND OUTPUT:
+Enter name of student 1: Larona
+Enter number of students:2
+Enter English grade: 70
+Enter Math grade: 75
+Enter Science grade: 80
+
+Enter name of student 2: Leatile
+Enter English grade: 80
+Enter Math grade:85
+Enter Science grade:90
+
+output:
+Name     Average
+Larona   81.88
+Leatile  71.45
+
+Class Total:106.82
+Class Average:82.80
+
+TESTING SUMMARY
+-when a student enters a number instead of a name,an error message will be shown
+-when astudent enters a string instead of a numeric value,an error message will be shown
+-when updating the student the output should be updated succesfully
+-when searching hte students,it should show the student grades and results
+
+KNOWN ISSUES
+-the names of the students are case-sensitive
